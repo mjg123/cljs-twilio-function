@@ -4,12 +4,11 @@
   "src/main"
   "src/test"]
 
- :dependencies
- []
+ :dependencies [[hiccups "0.3.0"]]
 
  :builds
   {:function
   {:target :node-library
    :exports {:handler my-twilio-function/my-function}
    :compiler-options {:optimizations :advanced}
-   :output-to "functions/function.js"}}}
+   :output-to "functions/function.protected.js"}}}
