@@ -8,4 +8,8 @@
  []
 
  :builds
- {}}
+  {:function
+  {:target :node-library
+   :exports {:handler my-twilio-function/my-function}
+   :compiler-options {:optimizations :advanced}
+   :output-to "functions/function.js"}}}
