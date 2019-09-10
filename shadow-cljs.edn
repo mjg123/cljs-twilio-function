@@ -5,7 +5,7 @@
   "src/test"]
 
  :dependencies
- []
+ [[hiccups "0.3.0"]]
 
  :builds
   {:function
