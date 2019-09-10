@@ -1,0 +1,15 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src/dev"
+  "src/main"
+  "src/test"]
+
+ :dependencies
+ []
+
+ :builds
+  {:function
+  {:target :node-library
+   :exports {:handler my-twilio-function/my-function}
+   :output-to "functions/my-function.js"
+   :compiler-options {:optimizations :advanced}}}}
