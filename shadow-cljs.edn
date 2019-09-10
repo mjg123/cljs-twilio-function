@@ -11,5 +11,5 @@
   {:function
   {:target :node-library
    :exports {:handler my-twilio-function/my-function}
-   :output-to "functions/my-function.js"
+   :output-to "functions/my-function.protected.js"
    :compiler-options {:optimizations :advanced}}}}
